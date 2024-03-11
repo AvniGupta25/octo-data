@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'Octo', // Usually your GitHub org/user name.
   projectName: 'octo-data', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set

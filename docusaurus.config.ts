@@ -133,6 +133,18 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // docusaurus.config.js
+
+  plugins: [
+    [
+      "docusaurus-plugin-dotenv",
+      {
+        path: "./.env.local",
+        systemvars: true,
+      },
+    ],
+  ],
 };
 
 export default config;
